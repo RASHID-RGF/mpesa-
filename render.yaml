@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: kenya-booking-app
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: npm run build:all
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
+      - key: MPESA_CONSUMER_KEY
+        sync: false
+      - key: MPESA_CONSUMER_SECRET
+        sync: false
+      - key: MPESA_PASSKEY
+        sync: false
+      - key: MPESA_BUSINESS_SHORT_CODE
+        sync: false
+      - key: MPESA_CALLBACK_URL
+        sync: false
+      - key: MPESA_ENVIRONMENT
+        value: production
+      - key: FRONTEND_URL
+        sync: false
