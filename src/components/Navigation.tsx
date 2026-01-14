@@ -39,6 +39,9 @@ export default function Navigation() {
                 <Calendar size={20} />
                 <span>My Bookings</span>
               </Link>
+              <Link to="/dashboard" className="text-white hover:text-gray-300 transition-colors body-md">
+                Dashboard
+              </Link>
               <button className="text-white hover:text-gray-300 transition-colors">
                 <Heart size={24} />
               </button>

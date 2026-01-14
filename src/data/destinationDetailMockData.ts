@@ -1,3 +1,4 @@
+
 import type { DestinationDetail, PackageOption, Review } from '../types/booking'
 import { PackageType } from '../types/booking'
 
@@ -13,7 +14,7 @@ export const mockDestinationDetails: Record<number, DestinationDetail> = {
     images: [
       'https://images.unsplash.com/photo-1588588786707-8af013227e84?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTAwNDR8MHwxfHNlYXJjaHwxfHxzYXZhbm5hJTIwYWNhY2lhJTIwdHJlZXMlMjBzdW5zZXQlMjB3aWxkbGlmZSUyMGdyYXNzbGFuZHxlbnwwfDB8fG9yYW5nZXwxNzYyNTQxMzYwfDA&ixlib=rb-4.1.0&q=85',
       'https://images.unsplash.com/photo-1516426122078-c23e76319801?w=800&q=80',
-      'https://images.unsplash.com/photo-1535083783855-76ae62b2914e?w=800&q=80'
+
     ],
     rating: 4.9,
     reviewCount: 342,
